@@ -1,12 +1,12 @@
-#Tomcat installation on EC2 instance
+  # Tomcat installation on EC2 instance
 
-Prerequisites
+  # Prerequisites
 
-EC2 instance with Java v1.8.x
+  # EC2 instance with Java v1.8.x
 
-Install Apache Tomcat
+  # Install Apache Tomcat
 
-Download tomcat packages from https://tomcat.apache.org/download-80.cgi onto /opt on EC2 instance
+  # Download tomcat packages from https://tomcat.apache.org/download-80.cgi onto /opt on EC2 instance
 
   # create tomcat directory
   cd /opt
@@ -19,8 +19,8 @@ give executing permissions to startup.sh and shutdown.sh which are under bin.
 
 create link files for tomcat startup.sh and shutdown.sh
 
-  ln -s /opt/apache-tomcat-8.5.35/bin/startup.sh /usr/local/bin/tomcatup
-  ln -s /opt/apache-tomcat-8.5.35/bin/shutdown.sh /usr/local/bin/tomcatdown
+  #ln -s /opt/apache-tomcat-8.5.35/bin/startup.sh /usr/local/bin/tomcatup
+  #ln -s /opt/apache-tomcat-8.5.35/bin/shutdown.sh /usr/local/bin/tomcatdown
   tomcatup
 
 check point :
